@@ -16,7 +16,7 @@ The script loads color descriptions from a CSV file, preprocesses them, identifi
 
 ## Code Summary
 
-- Load color descriptions from a CSV file.
+- Load color descriptions from the color.csv file.
 - Define common base colors.
 - Identify base color in each description.
 - Group descriptions by identified base color or 'other'.
