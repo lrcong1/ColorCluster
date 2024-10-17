@@ -12,7 +12,11 @@ Before running the script, make sure you have the following dependencies install
 
 ## Usage
 
-The script loads color descriptions from a CSV file, preprocesses them, identifies base colors, groups descriptions, applies k-means clustering to the 'other' groups, utilizes TF-IDF (Term Frequency-Inverse Document Frequency) for text feature extraction to extract the most common words/themes from each cluster, and finally generates a new DataFrame with expanded descriptions for each cluster.
+To analyze color descriptions, simply place them in a CSV file, and the script will handle the rest. The script loads and preprocesses color descriptions, identifies base colors, groups similar descriptions, and applies k-means clustering to the 'other' category. Using TF-IDF (Term Frequency-Inverse Document Frequency) for feature extraction, it identifies common themes within each cluster. Finally, it generates a new DataFrame with expanded descriptions for each cluster.
+
+Below is a treemap visualization showing the categorization process: how 983 color descriptions are distilled into 18 distinct groups.
+
+![Alt Text](TreeMap.png)
 
 ## Code Summary
 
